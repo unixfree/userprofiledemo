@@ -93,6 +93,9 @@ Build.<br>
 
 4-2. 소스 설명. <br>
 
+4-4. 참고 추가 설명 자료.. <br>
+https://docs.couchbase.com/tutorials/userprofile-sync/userprofile_sync.html
+
 ## 참고 URL <br>
  아래 A만 우선 참고하시면 됩니다. <br>
 <br>
