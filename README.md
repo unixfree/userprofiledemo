@@ -34,7 +34,7 @@
 ![Application](AddUser2.png)
 
 ## 2. IOS Client/SDK 소스 크론 및 구성 <br>
-2-1. gitbub에서 다운로드 및 구성.
+2-1. github에서 IOS용 소스 다운로드 및 구성.
 
 ```
 cd ~/Workplace
