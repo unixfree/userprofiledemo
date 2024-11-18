@@ -12,6 +12,12 @@
 ## 1. Couchbase Server 설치 및 구성.<br>
 1-1. MacOS용 카우치베이스 패키지 다운로드 및 설치 구성. <br>
 - MacBook의 메모리가 최소 8GB, 권장 16GB 이상입니다. <br>
+- git 이 설치되어 있어야 합니다. <br>
+```
+brew install git
+git --version
+```
+
 - 아래 링크에 카우치베이스 설치방법이 설명되어 있습니다. <br>
    https://receptive-blender-fda.notion.site/Couchbase-Install-on-MacOS-1342845c3696806387fdc02b67e2a7c9 <br>
 - Couchbase 기본 관리 계정 : `Administrator / password`  <br>
