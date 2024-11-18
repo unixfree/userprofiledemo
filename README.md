@@ -86,15 +86,37 @@ vi sync-gateway-config.json
 
 ## 4. IOS Client/SDK 빌드 및 실행. <br>
 <br>
+참고 추가 설명 자료 : https://docs.couchbase.com/tutorials/userprofile-sync/userprofile_sync.html <br>
+<br>
 4-1. Xcode에서 Project 오픈, Build, Run <br>
-open UserProfileSyncDemo.xcodeproj at Xcode. <br>
+- Xcode를 수행 후, **Open Existing Project...**을 선택 <br>
+![Application](image/xcode1)'
+- 파일 브라우저에서 `Workpace / userprofiledemo` 에서 `UserProfileDemo.xcodeproj`을 선택 <br>
+![Application](image/xcode2.png)'
+- Xcode에 아래와 같은 화면 보임. **UserProfileDemo** 밑의 하위 폴더를 선택하여 열어 보면 아래와 같음 <br>
+![Application](image/xcode3.png)'
+- Xcode의 가운데 **UserProfileDemo** 옆의  **iPhone 16(18.0)** 를 선택하면 시뮬레이터로 사용한 디바이스 리스트 가 보임. 원하는 디바이스 선택, 예) `iPhone 16`. <br>
+![Application](image/xcode4.png)'
+- Xcode 메뉴에서 **Product** 선택 한 후, **Run** 을 선택하면, 빌드 후 시뮬레이터가 실행됨. <br>
+![Application](image/xcode5.png)'
 
-Build.<br>
+4-2. 시뮬레이터에서 데모 데이터 입력 <br>
+- (하드웨어 사양에 따라 시간이 조금 걸림) 시뮬레이터에서 앱이 실행되고 아래와 같은 로그인 화면이 보임.  <br>
+  `demo@example.com`와 `password` 입력하고 **Sing In** 클릭 <br>
+![Application](image/simulator1.png)'
+- 입력 예시) **Name** : `홍길동`, **Address** : `서울시 강남구 홍길동로 111`, **University**를 선택 후, 대학교 선택 및 **Done** 클릭 <br>
+  **Tap** 클릭 후, **Select From Photo Album** 에서 사진 선택 후, <br>
+  우측 상단의 **Done** 을 클릭하면, 카우치베이스 서버에 해당 사용자 정보 저장(Sync)됨. <br>
+![Application](image/simulator2.png)'
 
-4-2. 소스 설명. <br>
+4-3. 카우치베이스에서 변경된 데이터 확인 <br>
+- 좌측 메뉴에서 **Documents** 선택, **Keyspace**에서 `userprofile, _default, _default` 선택 하고, **N1QL WHERE** 에 `meta().id like "user::%"` 를 입력하고 **Retrieve Docs** 클릭 <br>
+![Application](image/userprofile2.png)'
+- 결과 페이지에서 **id** 아래의 `user::demo@example.com`를 선택하면 아래와 같은 팝업 화면이 보임. "name"이나 "address"를 변경하고 **Save** 클릭하면 시뮬레이터에 해당 값 변경된 것을 확인할 수 있음. <br>
+![Application](image/userprofile3.png)'
 
-4-4. 참고 추가 설명 자료.. <br>
-https://docs.couchbase.com/tutorials/userprofile-sync/userprofile_sync.html
+4-4. 소스 설명. <br>
+소스 설명은 https://docs.couchbase.com/tutorials/userprofile-sync/userprofile_sync.html 에서 확인 가능합니다. <br>
 
 ## 참고 URL <br>
  아래 A만 우선 참고하시면 됩니다. <br>
