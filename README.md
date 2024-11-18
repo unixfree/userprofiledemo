@@ -64,18 +64,18 @@ sudo ls /opt/couchbase-sync-gateway
 ```
 
 3-2. Sync Gateway 구성 파일 생성 <br>
-구성 설정 파일(sync-gateway-config-userprofile-demo.json)의 내용 중, `server connection`, `id/password` 수정  <br>
+구성 설정 파일(sync-gateway-config.json)의 내용 중, `server connection`, `id/password` 수정  <br>
 
 ```
 cd ~/Workplace/userprofiledemo
-vi sync-gateway-config-userprofile-demo.json.json
+vi sync-gateway-config.json
 ```
  
 <br>
 3-3. Sync-gateway 구동  <br>
 
 ```
-/opt/couchbase-sync-gateway/bin/sync_gateway ~/Workplace/userprofiledemo/sync-gateway-config-userprofile-demo.json.json <br>
+/opt/couchbase-sync-gateway/bin/sync_gateway ~/Workplace/userprofiledemo/sync-gateway-config.json.json <br>
 ```
 
 ## 4. IOS Client/SDK 빌드 및 실행. <br>
