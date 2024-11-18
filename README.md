@@ -73,7 +73,7 @@ vi sync-gateway-config.json
 **수정 내용.** <br>
 "log_file_path": "~/Workplace/userprofiledemo/sglogs",   <- 6 라인. <br>
       "bucket":"userprofile",               <- 37 라인. <br>
-      "server": "couchbases://localost",    <- 38 라인. <br>
+      "server": "couchbases://localhost",    <- 38 라인. <br>
       "username": "admin",                  <- 44 라인. <br>
       "password": "password",               <- 45 라인. <br>
  
