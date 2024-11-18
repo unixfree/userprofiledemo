@@ -29,9 +29,9 @@ https://github.com/couchbaselabs/userprofile-couchbase-mobile-reactnative <br>
 <br>
 1-2. 본 데모를 위한 Bucket 생성 : userprofile <br>
 - 좌측 메뉴에서 "Bucket" 선택 > 우측 상단에서 "ADD BUCKET" 선택 <br>
-![image](https://github.com/user-attachments/assets/fbca98f6-a069-4dd2-a118-fd334e5f6ab0) <br>
+![Application]AddBucket1.png <br>
 - Name 에 "userprofile" 입력, Memory Quota에 "200"MB 입력 후 , "Add Bucket" 실행. <br>
-![image](https://github.com/user-attachments/assets/3ec36c46-737a-4979-8b57-f4a727f4b1a4) <br>
+![Application]AddBucket2.png <br> <br>
 <br>
 1-3. Sync Gateway 접속 계정 생성 : admin / password  <br>
 
