@@ -26,15 +26,13 @@ https://github.com/couchbaselabs/userprofile-couchbase-mobile-reactnative <br>
 - 아래 링크에 카우치 설치방법이 설명되어 있습니다. <br>
    https://receptive-blender-fda.notion.site/Couchbase-Install-on-MacOS-1342845c3696806387fdc02b67e2a7c9 <br>
 - Couchbase 기본 관리 계정 : Administrator / password  <br>
-<br>
+
 1-2. 본 데모를 위한 Bucket 생성 : userprofile <br>
 - 좌측 메뉴에서 "Bucket" 선택 > 우측 상단에서 "ADD BUCKET" 선택 <br>
-
 ![Application](AddBucket1.png)
 
 - Name 에 "userprofile" 입력, Memory Quota에 "200"MB 입력 후 , "Add Bucket" 실행. <br>
 ![Application](AddBucket2.png)
-<br>
 <br>
 1-3. Sync Gateway 접속 계정 생성 : admin / password  <br>
 
