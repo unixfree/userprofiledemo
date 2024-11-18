@@ -18,7 +18,7 @@
 
 1-2. 본 데모를 위한 Bucket 생성 : `userprofile` <br>
 - 좌측 메뉴에서 **Bucket** 선택 > 우측 상단에서 **ADD BUCKET** 선택 <br>
-![Application](AddBucket1.png)
+![Application](image/AddBucket1.png)
 
 - **Name**에 `userprofile` 입력, **Memory Quota**에 `200`MB 입력 후 , **Add Bucket** 실행.<br>
 
