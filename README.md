@@ -109,7 +109,7 @@ vi sync-gateway-config.json
 - (하드웨어 사양에 따라 시간이 조금 걸림) 시뮬레이터에서 앱이 실행되고 아래와 같은 로그인 화면이 보임.  <br>
   `demo@example.com`와 `password` 입력하고 **Sing In** 클릭 <br>
 ![Application](image/simulator1.png)'
-- 입력 예시) **Name** : `홍길동`, **Address** : `서울시 강남구 홍길동로 111`, **University**를 선택 후, 대학교 선택 및 **Done** 클릭 <br>
+- 입력 예시) **Name** : `홍길동`, **Address** : `서울시 강남구 홍길동로 111`, **University**를 선택 후, 대학교 선택 및 **Done** 클릭 <br>
   **Tap** 클릭 후, **Select From Photo Album** 에서 사진 선택 후, <br>
   우측 상단의 **Done** 을 클릭하면, 카우치베이스 서버에 해당 사용자 정보 저장(Sync)됨. <br>
 ![Application](image/simulator2.png)'
