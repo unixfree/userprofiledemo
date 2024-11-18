@@ -41,7 +41,7 @@ https://github.com/couchbaselabs/userprofile-couchbase-mobile-reactnative <br>
 
 - **Username**에 `admin` 입력, **Password**에 `password`, **Verify Password**에 `password` 입력 후 ,<br>
   우측 **Roles** 에서 **Mobile** 선택 > **Sync Gateway** 선택 후 bucket 을 `*` 선택, <br>
-  우측 하단에 "Add User" 선택.
+  우측 하단에 **Add User** 선택.
 ![Application](AddUser2.png)
 
 ## 2. Sync Gateway 설치 및 구성 <br>
@@ -49,29 +49,42 @@ https://github.com/couchbaselabs/userprofile-couchbase-mobile-reactnative <br>
 2-1-1. https://www.couchbase.com/downloads 에서 "Mobile & Edge" > Sync Gateway(Enterprise) <br>
 <br>
 or<br>
-$ wget https://packages.couchbase.com/releases/couchbase-sync-gateway/3.2.0/couchbase-sync-gateway-enterprise_3.2.0_arm64.zip?_gl=1*1das0cc*_gcl_au*MTA4ODgyNzUyMC4xNzI3MDQ4NjMx <br>
+```
+wget https://packages.couchbase.com/releases/couchbase-sync-gateway/3.2.0/couchbase-sync-gateway-enterprise_3.2.0_arm64.zip?_gl=1*1das0cc*_gcl_au*MTA4ODgyNzUyMC4xNzI3MDQ4NjMx
+```
 <br>
-2-1-2. rpm -i couchbase-sync-gateway-enterprise_3.1.0_x86_64.rpm <br>
-$ ls /opt/couchbase-sync-gateway <br>
-<br>
+2-1-2. Sync Gateway 설치 
+
+```
+rpm -i couchbase-sync-gateway-enterprise_3.1.0_x86_64.rpm 
+ls /opt/couchbase-sync-gateway 
+```
+
 2-2. make config.json <br>
 참고 : https://github.com/couchbaselabs/userprofile-couchbase-mobile/blob/sync/content/modules/userprofile-sync/examples/sync-gateway-config-userprofile-demo-3-x-legacy.json <br>
-<br>
-$ vi /Users/paul/config.json <br>
+
+```
+$ vi /Users/paul/config.json
+```
  위 json에서 server connection, id/password 등 수정. <br>
+ 
 <br>
 2-3. Sync-gateway 구동  <br>
+
+```
 $ /opt/couchbase-sync-gateway/bin/sync_gateway /Users/paul/config.json <br>
-<br>
+```
 
 ## 3. IOS Client/SDK 구성 및 빌드 <br>
 3-1. gitbub에서 다운로드 및 구성.
-<br>
-$ cd /Users/paul/Documents/Workplace/Couchbase/mobile
-$ git clone couchbase-examples/ios-swift-cblite-userprofile-sync
-$ cd ios-swift-cblite-userprofile-sync/src
-$ ./install_tutorial.sh 3.2.1   -> check "Frameworks" Folder in current Directory.
-<br>
+
+```
+cd /Users/paul/Documents/Workplace/Couchbase/mobile
+git clone couchbase-examples/ios-swift-cblite-userprofile-sync
+cd ios-swift-cblite-userprofile-sync/src
+./install_tutorial.sh 3.2.1   -> check "Frameworks" Folder in current Directory.
+```
+
 <br>
 3-2. Xcode에서 Project 오픈, Build, Run <br>
 open UserProfileSyncDemo.xcodeproj at Xcode. <br>
