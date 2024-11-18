@@ -81,7 +81,7 @@ vi sync-gateway-config.json
 3-3. Sync-gateway 구동  <br>
 
 ```
-/opt/couchbase-sync-gateway/bin/sync_gateway ~/Workplace/userprofiledemo/sync-gateway-config.json.json
+/opt/couchbase-sync-gateway/bin/sync_gateway ~/Workplace/userprofiledemo/sync-gateway-config.json
 ```
 
 ## 4. IOS Client/SDK 빌드 및 실행. <br>
