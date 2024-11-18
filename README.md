@@ -89,16 +89,21 @@ vi sync-gateway-config.json
 참고 추가 설명 자료 : https://docs.couchbase.com/tutorials/userprofile-sync/userprofile_sync.html <br>
 <br>
 4-1. Xcode에서 Project 오픈, Build, Run <br>
-- Xcode를 수행 후, **Open Existing Project...**을 선택 <br>
-![Application](image/xcode1)'
+
+- Xcode를 수행 후, **Open Existing Project...** 을 선택 <br>
+![Application](image/xcode1.png)
+
 - 파일 브라우저에서 `Workpace / userprofiledemo` 에서 `UserProfileDemo.xcodeproj`을 선택 <br>
-![Application](image/xcode2.png)'
+![Application](image/xcode2.png)
+
 - Xcode에 아래와 같은 화면 보임. **UserProfileDemo** 밑의 하위 폴더를 선택하여 열어 보면 아래와 같음 <br>
-![Application](image/xcode3.png)'
+![Application](image/xcode3.png)
+
 - Xcode의 가운데 **UserProfileDemo** 옆의  **iPhone 16(18.0)** 를 선택하면 시뮬레이터로 사용한 디바이스 리스트 가 보임. 원하는 디바이스 선택, 예) `iPhone 16`. <br>
-![Application](image/xcode4.png)'
+![Application](image/xcode4.png)
+
 - Xcode 메뉴에서 **Product** 선택 한 후, **Run** 을 선택하면, 빌드 후 시뮬레이터가 실행됨. <br>
-![Application](image/xcode5.png)'
+![Application](image/xcode5.png)
 
 4-2. 시뮬레이터에서 데모 데이터 입력 <br>
 - (하드웨어 사양에 따라 시간이 조금 걸림) 시뮬레이터에서 앱이 실행되고 아래와 같은 로그인 화면이 보임.  <br>
