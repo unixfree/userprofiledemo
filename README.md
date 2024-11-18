@@ -33,7 +33,7 @@ https://github.com/couchbaselabs/userprofile-couchbase-mobile-reactnative <br>
 ![Application](AddBucket1.png)
 
 - Name 에 "userprofile" 입력, Memory Quota에 "200"MB 입력 후 , "Add Bucket" 실행. <br>
-
+![Application](AddBucket2.png)
 <br>
 <br>
 1-3. Sync Gateway 접속 계정 생성 : admin / password  <br>
