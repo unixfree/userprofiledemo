@@ -122,6 +122,7 @@ vi sync-gateway-config.json
 
 4-4. 소스 설명. <br>
 소스 설명은 https://docs.couchbase.com/tutorials/userprofile-sync/userprofile_sync.html 에서 확인 가능합니다. <br>
+`~/Workplace/userprofiledemo/UserProfileDemo/model` 아래의 **DatabaseManager.swift** 에 Couchbase lite 로 DB 생성, Sync Gateway로 데이터 Sync(Replication) 관련 코드가 있습니다. <br>
 
 ## 참고 URL <br>
  아래 A만 우선 참고하시면 됩니다. <br>
