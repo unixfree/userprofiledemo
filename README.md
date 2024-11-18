@@ -33,12 +33,12 @@
   우측 하단에 **Add User** 선택.
 ![Application](AddUser2.png)
 
-## 2. IOS Client/SDK 구성 및 빌드 <br>
+## 2. IOS Client/SDK 소스 크론 및 구성 <br>
 2-1. gitbub에서 다운로드 및 구성.
 
 ```
 cd ~/Workplace
-git clone unixfree/userprofiledemo
+git clone https://github.com/unixfree/userprofiledemo.git
 cd userprofiledemo
 ./install_tutorial.sh 3.2.1   -> check "Frameworks" Folder in current Directory.
 ```
