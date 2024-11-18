@@ -63,7 +63,7 @@ sudo rm couchbase-sync-gateway-enterprise_3.2.0-461_arm64.zip
 sudo ls /opt/couchbase-sync-gateway 
 ```
 
-3-2. Sync Gateway 구성 파일 생성 <br>
+3-2. Sync Gateway 구성 파일 생성 <br>
 구성 설정 파일(sync-gateway-config.json)의 내용 중, `server connection`, `id/password` 수정  <br>
 
 ```
