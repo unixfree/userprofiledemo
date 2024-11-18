@@ -68,14 +68,14 @@ sudo ls /opt/couchbase-sync-gateway
 
 ```
 cd ~/Workplace/userprofiledemo
-vi sync-gateway-config-userprofile-demo.json.json
+vi sync-gateway-config-userprofile-demo.json.json
 ```
  
 <br>
 3-3. Sync-gateway 구동  <br>
 
 ```
-$ /opt/couchbase-sync-gateway/bin/sync_gateway /Users/paul/sync-gateway-config-userprofile-demo.json).json <br>
+/opt/couchbase-sync-gateway/bin/sync_gateway ~/Workplace/userprofiledemo/sync-gateway-config-userprofile-demo.json.json <br>
 ```
 
 ## 4. IOS Client/SDK 빌드 및 실행. <br>
