@@ -40,7 +40,7 @@
 cd ~/Workplace
 git clone https://github.com/unixfree/userprofiledemo.git
 cd userprofiledemo
-./install_tutorial.sh 3.2.1   -> check "Frameworks" Folder in current Directory.
+sh ./install_tutorial.sh 3.2.1   -> check "Frameworks" Folder in current Directory.
 ```
 
 ## 3. Sync Gateway 설치 및 구성 <br>
