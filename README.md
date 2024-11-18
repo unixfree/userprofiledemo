@@ -22,16 +22,16 @@
 
 - **Name**에 `userprofile` 입력, **Memory Quota**에 `200`MB 입력 후 , **Add Bucket** 실행.<br>
 
-![Application](AddBucket2.png) 
+![Application](image/AddBucket2.png) 
 
 1-3. Sync Gateway 접속 계정 생성 : `admin / password`  <br>
 - 좌측 메뉴에서 **Security** 선택 > 우측 상단에서 **ADD USER** 선택 <br>
-![Application](AddUser1.png)
+![Application](image/AddUser1.png)
 
 - **Username**에 `admin` 입력, **Password**에 `password`, **Verify Password**에 `password` 입력 후 ,<br>
   우측 **Roles** 에서 **Mobile** 선택 > **Sync Gateway** 선택 후 bucket 을 `*` 선택, <br>
   우측 하단에 **Add User** 선택.
-![Application](AddUser2.png)
+![Application](image/AddUser2.png)
 
 ## 2. IOS Client/SDK 소스 크론 및 구성 <br>
 2-1. github에서 IOS용 소스 다운로드 및 구성.
