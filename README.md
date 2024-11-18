@@ -11,7 +11,7 @@
 
 ## 1. Couchbase Server 설치 및 구성.<br>
 1-1. MacOS용 카우치베이스 패키지 다운로드 및 설치 구성. <br>
-- MacBook의 메모리가 최소 8GB, 16GB 이상 권장. <br>
+- MacBook의 메모리가 최소 8GB, 권장 16GB 이상입니다. <br>
 - 아래 링크에 카우치베이스 설치방법이 설명되어 있습니다. <br>
    https://receptive-blender-fda.notion.site/Couchbase-Install-on-MacOS-1342845c3696806387fdc02b67e2a7c9 <br>
 - Couchbase 기본 관리 계정 : `Administrator / password`  <br>
@@ -45,7 +45,7 @@ cd userprofiledemo
 
 ## 3. Sync Gateway 설치 및 구성 <br>
 3-1. Install Sync Gateway<br>
-3-1-1. https://www.couchbase.com/downloads 에서 "Mobile & Edge" > Sync Gateway(Enterprise) <br>
+3-1-1. https://www.couchbase.com/downloads 에서 "Mobile & Edge" > Sync Gateway(Enterprise) 에서 다운로드 수행. <br>
 <br>
 or<br>
 ```
