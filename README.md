@@ -1,7 +1,7 @@
 
 이 애플리케이션은 https://github.com/couchbaselabs/userprofile-couchbase-mobile 에서 가져와서 수정한 것입니다. <br>
 
-<br>**이 소스는 카우치베이스 DB, Sync Gatewat, Couchbase Lite가 어떻게 동작하는지는 보여 주는 데모입니다.** <br>
+**이 소스는 카우치베이스 DB, Sync Gateway, Couchbase Lite가 어떻게 동작하는지는 보여 주는 데모입니다.** <br>
 
 아래에 설명된 내용은 **MacOS** 환경에서 구현한 내용입니다. Windows나 Linux환경에서 테스트시에는 OS에 종속된 부분은 수정/보완하여 테스트 하십시오. <br>
 1) Couchbase Server 설치 및 구성, <br>
